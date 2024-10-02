@@ -40,10 +40,37 @@
 // console.log(arr);
 
 // array 1
-const a = prompt("Son kiriting");
-const kv = 0;
+// const n = prompt("Son kiriting");
+// let kv = 2;
 
-for (let i = 1; i < a; i++) {
-  kv = i * i;
-  console.log(i);
-}
+// for (let i = 1; i <= n; i++) {
+//   console.log(kv);
+//   kv = kv + kv;
+// }
+
+// array 2
+// let n = 7;
+// let a = 3;
+// let b = 5;
+
+// let result = [];
+// result[0] = a;
+// result[1] = b;
+
+// console.log(result)
+
+// for (let i = 0; i < n; i++) {
+//   let counter = 0;
+//   for (let k = 0; k < result.length; k++) {
+//     counter += result[k];
+//   }
+
+//   result.push(counter);
+// }
+
+// array 3
+// let n = prompt("Son kiriting");
+// let num = 0;
+// for (let i = n; i >= num; i--) {
+//   console.log(i);
+// }
