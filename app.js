@@ -146,11 +146,11 @@ let arr = [1, 2, 3, 4, 5, 6, 7, 8];
 
 let n = arr.length;
 
-for (let i = 0; i <= Math.ceil(n / 20); i++) {
-  if (i <= n) {
+for (let i = 0; i <= Math.ceil(n / 2); i++) {
+  if (i < n) {
     console.log(arr[i]);
   }
-  if (n - 1 - i >= i) {
+  if (n - 1 - i > i) {
     console.log(arr[n - 1 - i]);
   }
 }
