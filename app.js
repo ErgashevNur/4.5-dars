@@ -47,6 +47,62 @@
 //   }
 // }
 
+// array 2
+// let n = prompt("Son kiriting");
+
+// for (let i = n; i >= 0; i--) {
+//   if (i % 2 == 0) {
+//     console.log(i);
+//   }
+// }
+
+// array 3
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8];
+// let n = arr.length;
+
+// for (let i = 0; i <= Math.ceil(n / 2); i++) {
+//   if (i < n) {
+//     console.log(arr[i]);
+//   }
+//   if (n - 1 - i > i) {
+//     console.log(arr[n - 1 - i]);
+//   }
+// }
+
+// array 4
+// const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// let k = 2;
+// let l = 8;
+// let num = 0;
+
+// for (let i = k; i <= l; i++) {
+//   num += arr[i];
+// }
+// console.log("Berilgan raqamlar", arr);
+// console.log("Raqamlar orasidagi yeg'indi", num);
+
+// array 5
+// const arr = [7, 4, 2, 3, 1, 4, 5, 2, 4, 5, 7];
+// let son = [];
+
+// for (let i = arr.length; i > 0; i--) {
+//   if (!son.includes(arr[i])) {
+//     son.push(arr[i])
+//   }
+// }
+
+// array 6
+// let arr = [9, 6, 3, 8, 5, 2, 7, 15, 4, 1];
+// let min = Math.min(...arr);
+// let max = Math.max(...arr);
+// console.log("Eng kichik son-", min);
+// console.log("Eng katta son-", max);
+
+// array 7
+// const arr = [10, 4, 1, 8, 5, 2, 9, 6, 3];
+// let num = arr.shift();
+// console.log(arr, num);
+
 // Uyga vazifa
 
 // array 1
@@ -166,3 +222,18 @@
 // }
 
 // array 11
+// const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// let k = 3;
+// let l = 6;
+// let num = 0;
+
+// for (let i = 0; i < arr.length; i++) {
+//   if (i > k && i <= l) {
+//     continue;
+//   }
+//   num += arr[i];
+// }
+
+// console.log(num);
+
+// array 12
