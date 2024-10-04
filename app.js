@@ -38,6 +38,16 @@
 // // arr[maxIndex] = min;
 
 // // console.log(arr);
+// arrray 1
+// let n = prompt("Son kiiriting");
+
+// for (let i = 1; i <= n; i++) {
+//   if (i % 2 == 1) {
+//     console.log(i);
+//   }
+// }
+
+// Uyga vazifa
 
 // array 1
 // const n = prompt("Son kiriting");
@@ -142,15 +152,17 @@
 // console.log(sont.join(" "), "||", sonj.reverse().join(" "));
 
 // array 10
-let arr = [1, 2, 3, 4, 5, 6, 7, 8];
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8];
 
-let n = arr.length;
+// let n = arr.length;
 
-for (let i = 0; i <= Math.ceil(n / 2); i++) {
-  if (i < n) {
-    console.log(arr[i]);
-  }
-  if (n - 1 - i > i) {
-    console.log(arr[n - 1 - i]);
-  }
-}
+// for (let i = 0; i <= Math.ceil(n / 2); i++) {
+//   if (i < n) {
+//     console.log(arr[i]);
+//   }
+//   if (n - 1 - i > i) {
+//     console.log(arr[n - 1 - i]);
+//   }
+// }
+
+// array 11
